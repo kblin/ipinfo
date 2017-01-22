@@ -1,0 +1,9 @@
+[Unit]
+Description=A client IP echo service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/ipinfo
+
+[Install]
+WantedBy=multi-user.target
